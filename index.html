@@ -5,54 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment02</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">             
 <style>
     @import url('https://fonts.cdnfonts.com/css/miama');
 </style>
+<script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <div class="navbar display-flex">
-            <h3 class="fitness-title">Fitness</h3>
-            <ul class="nav-links display-flex">
-                <li><a href=""><button class="btn-primary">Home</button></a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">About</a></li>
-            </ul>
-            <div class="ham-bars"><i class="fa-solid fa-bars" style="color: white;"></i></div>
+        <div class="header">
+            <div class="navbar display-flex">
+                
+                <h3 class="fitness-title">Fitness</h3>
+                <div class="ham-bar"><i class="fa-solid fa-bars"></i></div>
+                <ul class="nav-links display-flex">
+                    <li><a href=""><button class="btn-primary">Home</button></a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+                
+            </div>
+            <div class="hero display-flex">
+                <div class="hero-description display-flex ">
+                      <h1 class="hero-title">Get body in <br> <span  class="miama-regular">shape</span>& stay <br> healthy</h1>
+                      <p class="hero-para hero-pr">Getting in shape and staying healthy involves a balanced approach to exercise, nutrition,
+                        and mental well-being. Regular physical activity helps build strength and endurance,while a nutritious diet 
+                        fuels your body and supports overall health.</p>
+        
+                       <div class="hero-button display-flex"> 
+                        <button class="btn-secondary">Join Club Now!</button>
+                        <button class="btn-tirtiary">Download App</button>
+                       </div> 
+                        </div>
+                        <div class="hero-img">
+                            <img src="images/Images 2.png" alt="">
+                        </div>
+                        </div>
+            <div class="card-1">
+                <p class="card1-title">500+ <br><span class="hero-para" id="card-para">Free Workout Videos</span></p>
+            </div>
+            <div class="card-2 card2">
+                <p class="card2-title">350+ <br><span class="hero-para" id="card-para">Video Tutorial</span></p>
+            </div>
+            <div class="small-circle"></div>
         </div>
-        <div class="hero display-flex">
-            <div class="hero-description display-flex ">
-                <h1 class="hero-title">Get body in <br> <span  class="miama-regular">shape</span>& stay <br> healthy</h1>
-                <p class="hero-para">Getting in shape and staying healthy involves a balanced approach to exercise, nutrition,
-                    and mental well-being. Regular physical activity helps build strength and endurance,while a nutritious diet 
-                    fuels your body and supports overall health.</p>
-    
-                   <div class="hero-button display-flex"> 
-                    <button class="btn-secondary">Join Club Now!</button>
-                    <button class="btn-tirtiary">Download App</button>
-    
-                   </div> 
-                    </div>
-                    <div class="hero-img">
-                        <img src="images/Images 2.png" alt="">
-                    </div>
-        </div>
-        <div class="card-1">
-            <p class="card1-title">500+ <br><span class="hero-para" id="card-para">Free Workout Videos</span></p>
-        </div>
-        <div class="card-2">
-            <p class="card2-title">350+ <br><span class="hero-para" id="card-para">Video Tutorial</span></p>
-        </div>
-        <div class="small-circle"></div>
+        
 
     </header>
     <main>
         <section class="habit-section">
+            
             <div class="habits">
                 <div class="habit-text">
                  <h1 class="change-habits">Change Your Habits</h1>
@@ -86,7 +93,7 @@
             
         </section>
 
-        <section class="run">
+        <section class="run ">
             <div class="run-extra">
                 <div class="run-container">
                     <h3 class="change-habits run-title">Run an Extra<br> Mile Easily</h3>
@@ -100,21 +107,112 @@
             </div>
         </section>
         <section>
-            <div class="Trainings">
+            <div class="Trainings ">
                 <h1 class="change-habits run-title">Trainings and Exercises</h1>
             <p class="hero-para run-para">We believe fitness should be accessible to everyone,
                 everywhere, regardless of income or access to a gym.</p>
         </div>
-        </section>
-        <section>
+
             <div class="excercise">
-                <img src="images/exercise1.jpg" alt="">
-                <img src="images/exercise2.png" alt="">
-                <img src="images/exercise3.png" alt=""> <br>
-                <img src="images/exercise4.png" alt="">
-                <img src="images/exercise5.jpg" alt="">
-                <img src="images/exercise6.jpg" alt="">
+                <div>
+                        <div class="text-overlay"></div>
+                            <img src="images/exercise1.jpg" alt="" class="img-13">
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                    <div class="text-overlay"></div>
+                            <img src="images/exercise2.png" alt="" class="img-2">=
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                    <div class="text-overlay"></div>
+                        <img src="images/exercise3.png" alt="" class="img-13"> 
+                        <p class="trainer-title">Trainer</p>
+                </div>
+                <div>
+                <div class="text-overlay"></div>
+                        <img src="images/exercise4.png" alt="" class="img-4">
+                        <p class="trainer-title">Trainer</p>
+                </div>
+                <div>
+                <div class="text-overlay"></div>
+                        <img src="images/exercise5.jpg" alt="" class="img-5 d">
+                        <p class="trainer-title">Trainer</p>
+                </div>
+                <div>
+                <div class="text-overlay"></div>
+                        <img src="images/exercise6.jpg" alt="" class="img-6 d">
+                        <p class="trainer-title">Trainer</p>
+                </div>
             </div>
+        </section>
+
+        <section class="bmi-section">
+            <div class="bmi-section-title">
+                <h1 class="bmi-title-head">BMI Calculator</h1>
+                <p class="hero-para bmi-para">We believe fitness should be accessible to everyone,
+                    everywhere, regardless of income or access to a gym.</p>
+            </div>
+           <div class="bmi">
+            <div class="bmi-part display-flex ">
+                <div class="bmi-chart">
+                    <h3 class="bmi-title">BMI Calculator Chart</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>BMI</th>
+                                            <th>Weight Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Below 18.5</td>
+                                            <td>Underweight</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18.5 - 24.9</td>
+                                            <td>Healthy</td>
+                                        </tr>
+                                        <tr>
+                                            <td>25.0 - 29.9</td>
+                                            <td>Overweight</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30.0 - and Above</td>
+                                            <td>Obese</td>
+                                        </tr>
+                                    <tbody>
+                                </table>
+                </div>
+                <div class="calculation-BMI">
+                    <h1>Calculate your BMI</h1>
+                    <p class="hero-para">Check your BMI to find out if you're a healthy weight for your height.</p>
+                    <div class="input">
+                        <div class="hwA">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="text" placeholder="Age">
+                            <select class="gender" name="" id="">
+                                <option value="">Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+                        </div>
+                        <select class="select-value" name="" id="">
+                            <option value="">Select an activity factor</option>
+                            <option value="">Diet</option>
+                            <option value="">Physical activity</option>
+                            <option value="">Prenatal influences</option>
+                            <option value="">Medication</option>
+                            <option value="">Smoking and alcohol</option>
+                            <option value="">Sedentary lifestyle, and Sleep</option>
+                        </select>
+                    </div>
+                    <button class="btn-secondary btn-calc"><a class="" href="">Calculate</a></button>
+                </div>
+            </div>
+           </div>
+            
         </section>
         <section class="meet-our-team">
             <div class="meet-our-team-title">
@@ -125,27 +223,53 @@
             <div class="meet-img">
 
                     <div>
+                        <div class="text-overlay"></div>
                         <img src="images/trainer1.png" alt="">
-                        <div class="text-overlay">
                             <h4 class="trainer-name">Jerome Bell</h4>
                             <p class="trainer-title">Trainer</p>
-                        </div>
                     </div>
-                <img src="images/trainer2.png" alt="">
-                <img src="images/trainer3.png" alt="">
-                <img src="images/trainer4.png" alt="">
-                <img src="images/trainer5.png" alt="">
-                <img src="images/trainer6.png" alt="">
+                    <div>
+                        <div class="text-overlay"></div>
+                        <img src="images/trainer2.png" alt="">
+                            <h4 class="trainer-name">Cameron William</h4>
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                        <div class="text-overlay"></div>
+                        <img src="images/trainer3.png" alt="">
+                            <h4 class="trainer-name">Darrel Steward</h4>
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                        <div class="text-overlay"></div>
+                        <img src="images/trainer4.png" alt="">
+                            <h4 class="trainer-name">Dianne Russell</h4>
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                        <div class="text-overlay"></div>
+                        <img src="images/trainer5.png" alt="">
+                            <h4 class="trainer-name">Cody Fisher</h4>
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                    <div>
+                        <div class="text-overlay"></div>
+                        <img src="images/trainer6.png" alt="">
+                            <h4 class="trainer-name">Theresa Webb</h4>
+                            <p class="trainer-title">Trainer</p>
+                    </div>
+                
+                
             </div>
 
         </section>
 
     </main>
-    <footer>
+    <footer class="ft">
     <div class="footer-container display-flex">
         <div>
             <h3 class="footer-f-title">Fitness</h3>
-            <p class="hero-para run-para">We believe fitness should be accessible to everyone,<br> everywhere,  
+            <p class="hero-para run-para footer-f-para">We believe fitness should be accessible to everyone,<br> everywhere,  
                 regardless of income or access to a gym.<br> With hundreds  of professional workouts.</p>
         </div>
         <div class="get-started display-flex"> 

@@ -1,0 +1,175 @@
+/* Responsive related style */
+@media screen and (max-width: 576px) {
+    .d{
+        display: none;
+    }
+    header{
+        margin: 0px;
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .miama-regular{
+        font-size: 6.5rem;
+    }
+    .ham-bar{
+        display: contents;
+    }
+    .navbar{
+        
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .hero-title{
+        font-size: 2.2rem;
+        width: 405px;
+        height: auto;
+    }
+    .hero-pr{
+        width: 274px;
+        height: 96px;
+    }
+    .hero-button{
+        width: 385px;
+        height: auto;
+        margin-top: 50px;
+        /* margin-right: 15px; */
+        margin-left: 0px;
+    }
+    .hero{
+        flex-direction: column;
+        margin: 8px;
+    }
+    .hero-img{
+        width: 353px;
+        height: 588px;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .card-1{
+    width: 175px;
+    margin-right: 20px;
+    /* height: 54.09px; */
+    margin-left: 240px;
+    margin-top: -586.6px;
+    }
+    
+    .card2{
+        width: 200px;
+        height: 110px;
+        margin-left: 20px;
+        margin-top: 140px;
+    }
+    .small-circle{
+    
+            left: calc(50% - 160px); /* Center the circle */
+            top: 1150px;
+            bottom: -20px;
+        }
+    
+    .habit-image{
+        grid-template-columns: repeat(1,4fr);
+        margin: 75px;
+        justify-content: center;
+    }
+    .change-habits{
+        font-size: 2.2rem;
+        
+    }
+    .habit-text{
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .run{
+        width: 353px;
+    height: 531px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 1608px;
+    }
+    .run-extra{
+        flex-direction: column;
+    }
+    .run-img img{
+        width: 320px;
+height: 170px;
+margin-right: 30px;
+margin-left: px;
+/* top: 326px; */
+    }
+    .Trainings{
+        margin-left: 35px;
+    }
+    .excercise{
+       margin-left: 35px; 
+       margin-right: 20px;
+       padding-right: 20px;
+       grid-template-columns: repeat(2,1fr);
+    }
+    .excercise img{
+        
+        width: 205.95px;
+    height: 139px;
+    }
+    .img-2{
+        position: absolute;
+        background-color:rgba(6, 255, 210, 0.5);
+    }
+    .bmi-section-title{
+        margin-left: 20px;
+    }
+    .bmi-part{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 0px;
+        gap: 25px;
+    }
+    .calculation-BMI{
+        width: 354px;
+    height: 395px;
+    }
+    .hwA{
+    
+    }
+    .meet-title{
+        font-size: 2rem;
+    }
+    input{
+        width: 100px;
+        height: 50%;
+        padding: 12px 45px 12px 20px;
+    }
+    .meet-img{
+        margin: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+
+        margin: 20px;
+        flex-direction: column;
+    }
+    .foot-links,.foot-title,.footer-f-para,.footer-f-title{
+        margin-left: 10px;
+    }
+    /* footer{
+        background: rgba(255, 255, 255, 0.1);
+    } */
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        width: 420px;
+        gap: 0px;
+        background: rgba(85, 83, 83, 0.1);
+    }
+}
+
+
+/* Responsive Styles for Minimum Width of 576px */
+
+
+@media screen and (min-width: 576px) {
+    
+}
