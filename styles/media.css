@@ -307,24 +307,35 @@ margin-left: px;
         text-align: left;
     }
 
-    .meet-img {
-        grid-template-columns: 1fr; /* Stack team images vertically */
-        margin: 0 20px;
+    .meet-img img {
+        width: 200px;
+        height: 272px;
+        
+    }
+    .meet-img{
+        margin: 20px;
+        width: 750PX;
+    }
+    .meet-para{
+        text-align: center;
     }
 
     footer {
         height: auto;
         padding: 20px;
     }
+        .footer-f-title{
+            margin-top: -80px;
+        }
 
     .footer-container {
-        flex-direction: column;
-        gap: 20px;
+        width: 85px;
+        gap: 100px;
         margin-left: 0;
     }
 
     .footer-line {
-        width: 100%;
+        width: 850px;
         margin-left: 0;
     }
 
