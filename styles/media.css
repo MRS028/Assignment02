@@ -1,6 +1,6 @@
 /* Responsive related style */
 @media screen and (max-width: 576px) {
-    .d{
+    .dm{
         display: none;
     }
     header{
